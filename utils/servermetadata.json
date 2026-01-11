@@ -1,0 +1,35 @@
+{
+  "PORT": 3001,
+  "HOST": "localhost",
+  "URL": "http://localhost:3001",
+  "BACKEND_URL": "http://localhost:3001",
+  "BASE_API_PATH": "/api/v1",
+  "API_URL": "http://localhost:3001/api/v1",
+  "FRONTEND_URL": "http://localhost:4200",
+  "ENVIRONMENT": "development",
+  "VERSION": "1.0.0",
+  "MAINTAINER": [
+    {
+      "name": "Your Name",
+      "email": "",
+      "username": "ARN"
+    },
+    {
+      "name": "Another Name",
+      "email": "",
+      "username": "AA"
+    }
+  ],
+  "TEST_API_PATH": "/api/v1/test",
+  "TFI_PATH": "/api/v1/tfi",
+  "CRICKET_PATH": "/api/v1/cricket",
+  "API_DETAILS": {
+    "VALIDITY_DAYS": 30,
+    "MAX_REQUESTS_PER_DAY": 1000,
+    "RATE_LIMIT_WINDOW_MS": 86400000,
+    "RATE_LIMIT_MAX_REQUESTS": 1000,
+    "API_SALT_ROUNDS": 10,
+    "API_KEY_PREFIX": "tcwq-",
+    "API_ORIG_KEY": "wctxo^i"
+  }
+}
